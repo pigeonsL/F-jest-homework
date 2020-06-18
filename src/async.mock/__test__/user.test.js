@@ -6,7 +6,6 @@ jest.mock("axios");
 
 describe("register", () => {
   test("should post user when validated", async () => {
-    // TODO 19: add test here
     const mockUsername = "mocked username";
     const mockpassword = "mocked password";
 
@@ -14,7 +13,6 @@ describe("register", () => {
   });
 
   test("should reject with Error when username is invalid", async () => {
-    // TODO 20: add test here
     verifyUsername.mockReturnValue(false);
     const mockPassword = "mocked password";
     const mockUsername = "mocked username";
