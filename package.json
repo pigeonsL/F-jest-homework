@@ -32,11 +32,6 @@
     "parcel-bundler": "^1.12.4",
     "prettier": "2.0.5"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.js": "eslint \"src/\" --cache --fix --format table",
     "*.{js,css,md}": "prettier --write"

@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved
 import Recipient from "../Recipient";
 
 describe("acceptInjection", () => {
